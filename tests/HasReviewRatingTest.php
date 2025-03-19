@@ -2,17 +2,13 @@
 
 namespace subashkhanal37\ReviewRating\Tests;
 
-use Carbon\Carbon;
+use Illuminate\Support\Facades\Event;
 use subashkhanal37\ReviewRating\Events\ReviewCreatedEvent;
 use subashkhanal37\ReviewRating\Exceptions\InvalidDate;
-use subashkhanal37\ReviewRating\Exceptions\InvalidReviewModel;
-use subashkhanal37\ReviewRating\Models\Review;
 use subashkhanal37\ReviewRating\Tests\Models\AlternativeReviewModel;
 use subashkhanal37\ReviewRating\Tests\Models\CustomModelKeyReviewModel;
 use subashkhanal37\ReviewRating\Tests\Models\TestAuthorModel;
 use subashkhanal37\ReviewRating\Tests\Models\TestModel;
-use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\Event;
 
 class HasReviewRatingTest extends TestCase
 {

@@ -2,9 +2,9 @@
 
 namespace subashkhanal37\ReviewRating;
 
+use Illuminate\Support\ServiceProvider;
 use subashkhanal37\ReviewRating\Exceptions\InvalidReviewModel;
 use subashkhanal37\ReviewRating\Models\Review;
-use Illuminate\Support\ServiceProvider;
 
 class ReviewRatingServiceProvider extends ServiceProvider
 {

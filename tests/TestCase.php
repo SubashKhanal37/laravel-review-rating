@@ -2,11 +2,11 @@
 
 namespace subashkhanal37\ReviewRating\Tests;
 
-use subashkhanal37\ReviewRating\ReviewRatingServiceProvider;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
+use subashkhanal37\ReviewRating\ReviewRatingServiceProvider;
 
 abstract class TestCase extends OrchestraTestCase
 {
