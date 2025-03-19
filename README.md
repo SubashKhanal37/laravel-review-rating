@@ -1,8 +1,6 @@
-# This is the fork of digikraaft / laravel-review-rating
-
-
+This is the fork of digikraaft / laravel-review-rating
 # Add Review and Rating Feature to your Laravel application
-![tests](https://github.com/subashkhanal37/laravel-review-rating/workflows/tests/badge.svg?branch=master)
+![tests](https://github.com/subashkhanal37/laravel-review-rating/workflows/tests/badge.svg?branch=main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Review and Rating System for Laravel

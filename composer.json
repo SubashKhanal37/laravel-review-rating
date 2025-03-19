@@ -1,11 +1,21 @@
 {
     "name": "subashkhanal37/laravel-review-rating",
-    "description": "Review & Rating system for Laravel",
+    "description": "Review & Rating system for Laravel 12|11|10",
     "keywords": [
         "subash",
         "reviews",
         "ratings",
-        "laravel"
+        "laravel",
+        "review",
+        "rating",
+        "review-rating",
+        "review-rating-system",
+        "review-rating-laravel",
+        "review-rating-system-laravel",
+        "review-rating-laravel-10",
+        "review-rating-laravel-11",
+        "review-rating-laravel-12",
+        "review-rating-laravel-10-11-12"
     ],
     "homepage": "https://github.com/subashkhanal37/laravel-review-rating",
     "license": "MIT",
