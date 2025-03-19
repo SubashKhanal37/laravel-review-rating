@@ -1,0 +1,55 @@
+{
+    "name": "subash/laravel-review-rating",
+    "description": "Review & Rating system for Laravel",
+    "keywords": [
+        "subash",
+        "reviews",
+        "ratings",
+        "laravel"
+    ],
+    "homepage": "https://github.com/subashkhanal37/laravel-review-rating",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Subash Khanal",
+            "email": "subashkhanal37@gmail.com",
+            "homepage": "https://renderbooking.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.0|^11.0|^12.0",
+        "spatie/test-time": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Subash\\ReviewRating\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Subash\\ReviewRating\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Subash\\ReviewRating\\ReviewRatingServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
