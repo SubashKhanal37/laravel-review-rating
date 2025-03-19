@@ -2,9 +2,9 @@
 
 namespace Subash\ReviewRating;
 
+use Illuminate\Support\ServiceProvider;
 use Subash\ReviewRating\Exceptions\InvalidReviewModel;
 use Subash\ReviewRating\Models\Review;
-use Illuminate\Support\ServiceProvider;
 
 class ReviewRatingServiceProvider extends ServiceProvider
 {

@@ -2,8 +2,8 @@
 
 namespace Subash\ReviewRating\Tests\Models;
 
-use Subash\ReviewRating\Traits\HasReviewRating;
 use Illuminate\Database\Eloquent\Model;
+use Subash\ReviewRating\Traits\HasReviewRating;
 
 class TestModel extends Model
 {

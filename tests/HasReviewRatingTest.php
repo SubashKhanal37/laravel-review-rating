@@ -2,17 +2,13 @@
 
 namespace Subash\ReviewRating\Tests;
 
-use Carbon\Carbon;
+use Illuminate\Support\Facades\Event;
 use Subash\ReviewRating\Events\ReviewCreatedEvent;
 use Subash\ReviewRating\Exceptions\InvalidDate;
-use Subash\ReviewRating\Exceptions\InvalidReviewModel;
-use Subash\ReviewRating\Models\Review;
 use Subash\ReviewRating\Tests\Models\AlternativeReviewModel;
 use Subash\ReviewRating\Tests\Models\CustomModelKeyReviewModel;
 use Subash\ReviewRating\Tests\Models\TestAuthorModel;
 use Subash\ReviewRating\Tests\Models\TestModel;
-use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\Event;
 
 class HasReviewRatingTest extends TestCase
 {

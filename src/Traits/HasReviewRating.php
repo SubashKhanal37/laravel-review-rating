@@ -3,14 +3,14 @@
 namespace Subash\ReviewRating\Traits;
 
 use Carbon\Carbon;
-use Subash\ReviewRating\Events\ReviewCreatedEvent;
-use Subash\ReviewRating\Exceptions\InvalidDate;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Facades\DB;
+use Subash\ReviewRating\Events\ReviewCreatedEvent;
+use Subash\ReviewRating\Exceptions\InvalidDate;
 
 trait HasReviewRating
 {
