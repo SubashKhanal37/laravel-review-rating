@@ -1,6 +1,6 @@
 <?php
 
-namespace Subash\ReviewRating\Tests\Models;
+namespace subashkhanal37\ReviewRating\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

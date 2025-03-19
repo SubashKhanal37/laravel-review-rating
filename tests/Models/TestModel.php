@@ -1,8 +1,8 @@
 <?php
 
-namespace Subash\ReviewRating\Tests\Models;
+namespace subashkhanal37\ReviewRating\Tests\Models;
 
-use Subash\ReviewRating\Traits\HasReviewRating;
+use subashkhanal37\ReviewRating\Traits\HasReviewRating;
 use Illuminate\Database\Eloquent\Model;
 
 class TestModel extends Model

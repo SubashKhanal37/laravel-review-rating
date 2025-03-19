@@ -1,5 +1,5 @@
 {
-    "name": "subash/laravel-review-rating",
+    "name": "subashkhanal37/laravel-review-rating",
     "description": "Review & Rating system for Laravel",
     "keywords": [
         "subash",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Subash\\ReviewRating\\": "src"
+            "subashkhanal37\\ReviewRating\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Subash\\ReviewRating\\Tests\\": "tests"
+            "subashkhanal37\\ReviewRating\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Subash\\ReviewRating\\ReviewRatingServiceProvider"
+                "subashkhanal37\\ReviewRating\\ReviewRatingServiceProvider"
             ]
         }
     },

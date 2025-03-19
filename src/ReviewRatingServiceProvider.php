@@ -1,9 +1,9 @@
 <?php
 
-namespace Subash\ReviewRating;
+namespace subashkhanal37\ReviewRating;
 
-use Subash\ReviewRating\Exceptions\InvalidReviewModel;
-use Subash\ReviewRating\Models\Review;
+use subashkhanal37\ReviewRating\Exceptions\InvalidReviewModel;
+use subashkhanal37\ReviewRating\Models\Review;
 use Illuminate\Support\ServiceProvider;
 
 class ReviewRatingServiceProvider extends ServiceProvider

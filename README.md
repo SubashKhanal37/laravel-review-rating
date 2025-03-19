@@ -20,7 +20,7 @@ $model->review($review, $author, 5);
 $model->review($review, $author, 5, "Lovely packages");
 
 //get the last review
-$model->latestReview(); //returns an instance of \Subash\ReviewRating\Review
+$model->latestReview(); //returns an instance of \subashkhanal37\ReviewRating\Review
 
 //get the review content of the last review
 $model->latestReview()->review; //returns 'Awesome package! I highly recommend it!!'
@@ -41,7 +41,7 @@ composer require subash/laravel-review-rating
 ```
 You must publish the migration with:
 ```bash
-php artisan vendor:publish --provider="Subash\ReviewRating\ReviewRatingServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="subashkhanal37\ReviewRating\ReviewRatingServiceProvider" --tag="migrations"
 ```
 Run the migration to publish the `reviews` table with:
 ```bash
@@ -49,7 +49,7 @@ php artisan migrate
 ```
 You can optionally publish the config-file with:
 ```bash
-php artisan vendor:publish --provider="Subash\ReviewRating\ReviewRatingServiceProvider" --tag="config"
+php artisan vendor:publish --provider="subashkhanal37\ReviewRating\ReviewRatingServiceProvider" --tag="config"
 ```
 The content of the file that will be published to `config/review-rating.php`:
 ```php
@@ -57,9 +57,9 @@ return [
     /*
       * The class name of the review model that holds all reviews.
       *
-      * The model must be or extend `Subash\ReviewRating\Models\Review`.
+      * The model must be or extend `subashkhanal37\ReviewRating\Models\Review`.
       */
-    'review_model' => Subash\ReviewRating\Models\Review::class,
+    'review_model' => subashkhanal37\ReviewRating\Models\Review::class,
 
     /*
      * The name of the column which holds the ID of the model related to the reviews.
@@ -73,7 +73,7 @@ return [
 ## Usage
 Add the `HasReviewRating` trait to the model:
 ```php
-use Subash\ReviewRating\Traits\HasReviewRating;
+use subashkhanal37\ReviewRating\Traits\HasReviewRating;
 use Illuminate\Database\Eloquent\Model;
 
 class EloquentModel extends Model
@@ -122,7 +122,7 @@ You can also check if user has reviewed the model by using the `hasReviewed` fun
 ### Retrieving reviews
 You can get the last review like this:
 ```php
-$model->latestReview(); //returns the latest instance of Subash\ReviewRating\Review
+$model->latestReview(); //returns the latest instance of subashkhanal37\ReviewRating\Review
 ```
 The content of the review can be gotten like this:
 ```php
@@ -221,18 +221,18 @@ $model->hasRating();
 ```
 
 ### Events
-The `Subash\ReviewRating\Events\ReviewCreatedEvent` event will be dispatched when 
+The `subashkhanal37\ReviewRating\Events\ReviewCreatedEvent` event will be dispatched when 
 a review has been created. You can listen to this event and take necessary actions.
 An instance of the review will be passed to the event class and can be accessed for use:
 ```php
-namespace Subash\ReviewRating\Events;
+namespace subashkhanal37\ReviewRating\Events;
 
-use Subash\ReviewRating\Models\Review;
+use subashkhanal37\ReviewRating\Models\Review;
 use Illuminate\Database\Eloquent\Model;
 
 class ReviewCreatedEvent
 {
-    /** @var \Subash\ReviewRating\Models\Review */
+    /** @var \subashkhanal37\ReviewRating\Models\Review */
     public Review $review;
 
     public function __construct(Review $review)

@@ -1,16 +1,16 @@
 <?php
 
-namespace Subash\ReviewRating\Tests;
+namespace subashkhanal37\ReviewRating\Tests;
 
 use Carbon\Carbon;
-use Subash\ReviewRating\Events\ReviewCreatedEvent;
-use Subash\ReviewRating\Exceptions\InvalidDate;
-use Subash\ReviewRating\Exceptions\InvalidReviewModel;
-use Subash\ReviewRating\Models\Review;
-use Subash\ReviewRating\Tests\Models\AlternativeReviewModel;
-use Subash\ReviewRating\Tests\Models\CustomModelKeyReviewModel;
-use Subash\ReviewRating\Tests\Models\TestAuthorModel;
-use Subash\ReviewRating\Tests\Models\TestModel;
+use subashkhanal37\ReviewRating\Events\ReviewCreatedEvent;
+use subashkhanal37\ReviewRating\Exceptions\InvalidDate;
+use subashkhanal37\ReviewRating\Exceptions\InvalidReviewModel;
+use subashkhanal37\ReviewRating\Models\Review;
+use subashkhanal37\ReviewRating\Tests\Models\AlternativeReviewModel;
+use subashkhanal37\ReviewRating\Tests\Models\CustomModelKeyReviewModel;
+use subashkhanal37\ReviewRating\Tests\Models\TestAuthorModel;
+use subashkhanal37\ReviewRating\Tests\Models\TestModel;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Event;
 

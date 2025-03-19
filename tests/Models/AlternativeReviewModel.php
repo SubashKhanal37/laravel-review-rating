@@ -1,7 +1,7 @@
 <?php
 
-namespace Subash\ReviewRating\Tests\Models;
+namespace subashkhanal37\ReviewRating\Tests\Models;
 
-use Subash\ReviewRating\Models\Review;
+use subashkhanal37\ReviewRating\Models\Review;
 
 class AlternativeReviewModel extends Review {}

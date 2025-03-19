@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Subash\ReviewRating\Exceptions;
+namespace subashkhanal37\ReviewRating\Exceptions;
 
 use Exception;
 

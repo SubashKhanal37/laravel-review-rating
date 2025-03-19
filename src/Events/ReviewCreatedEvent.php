@@ -1,8 +1,8 @@
 <?php
 
-namespace Subash\ReviewRating\Events;
+namespace subashkhanal37\ReviewRating\Events;
 
-use Subash\ReviewRating\Models\Review;
+use subashkhanal37\ReviewRating\Models\Review;
 
 class ReviewCreatedEvent
 {

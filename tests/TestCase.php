@@ -1,8 +1,8 @@
 <?php
 
-namespace Subash\ReviewRating\Tests;
+namespace subashkhanal37\ReviewRating\Tests;
 
-use Subash\ReviewRating\ReviewRatingServiceProvider;
+use subashkhanal37\ReviewRating\ReviewRatingServiceProvider;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;

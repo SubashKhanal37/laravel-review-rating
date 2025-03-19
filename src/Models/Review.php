@@ -1,6 +1,6 @@
 <?php
 
-namespace Subash\ReviewRating\Models;
+namespace subashkhanal37\ReviewRating\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

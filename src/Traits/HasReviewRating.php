@@ -1,10 +1,10 @@
 <?php
 
-namespace Subash\ReviewRating\Traits;
+namespace subashkhanal37\ReviewRating\Traits;
 
 use Carbon\Carbon;
-use Subash\ReviewRating\Events\ReviewCreatedEvent;
-use Subash\ReviewRating\Exceptions\InvalidDate;
+use subashkhanal37\ReviewRating\Events\ReviewCreatedEvent;
+use subashkhanal37\ReviewRating\Exceptions\InvalidDate;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
